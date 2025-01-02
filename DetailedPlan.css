@@ -1,0 +1,97 @@
+.detailed-plan-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the plan */
+  .detailed-plan-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Plan details section */
+  .detailed-plan-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Strong labels for each piece of information */
+  .detailed-plan-container p strong {
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  /* Back to plans button */
+  .detailed-plan-container a button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detailed-plan-container a button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Loading, error, and no details messages */
+  .detailed-plan-container div {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff4500;
+    padding: 20px;
+  }
+  
+  /* Specific styling for loading and error messages */
+  .detailed-plan-container .loading,
+  .detailed-plan-container .error {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  /* Plan details, including spacing between fields */
+  .detailed-plan-container p {
+    margin-bottom: 15px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .detailed-plan-container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .detailed-plan-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .detailed-plan-container p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .detailed-plan-container h2 {
+      font-size: 1.2rem;
+    }
+  
+    .detailed-plan-container p {
+      font-size: 0.85rem;
+    }
+  
+    .detailed-plan-container a button {
+      padding: 8px 15px;
+    }
+  }
